@@ -79,9 +79,9 @@ Once Python is installed, install the required libraries:
      ```
 
 2. **Run the Script**:
-   - Save the script as `obit_search_houston_co.py`.
+   - Save the script as `search_obits_legacydotcom.py`.
    - Open a terminal in the directory containing the script and your CSV.
-   - Run: `python3 obit_search_houston_co.py input.csv`
+   - Run: `python3 search_obits_legacydotcom.py input.csv`
    - Replace `input.csv` with your CSV file’s name.
 
 3. **Output**:
@@ -110,7 +110,7 @@ Seth,De Wayne,Aasen,La Crescent,MN,55947,1991
 
 ### Command:
 ```bash
-python3 obit_search_houston_co.py input.csv
+python3 search_obits_legacydotcom.py input.csv
 ```
 
 ### Output (`output.csv`):
@@ -130,19 +130,3 @@ Feel free to fork this repository, submit issues, or create pull requests with i
 
 ## License
 This project is unlicensed and provided as-is for personal use. No warranty is implied.
-
----
-
-### Notes on the `README.md`
-- **Structure**: Follows GitHub conventions with sections for description, prerequisites, installation, usage, and examples.
-- **Installation**: Includes steps for users without Python, covering macOS (your platform), Windows, and Linux for broader accessibility.
-- **Dependencies**: Highlights `requests` and `beautifulsoup4` as the only external libraries needed, installed via `pip`.
-- **Usage**: Provides clear, actionable steps with examples tied to your script’s functionality.
-- **Tone**: Keeps it straightforward and user-friendly, suitable for both beginners and experienced developers.
-
-When you post this to GitHub:
-1. Save it as `README.md` in your repository’s root directory.
-2. Ensure `obit_search_houston_co.py` and a sample `input.csv` (optional) are included for completeness.
-3. Test the installation steps yourself to confirm they work as expected.
-
-Let me know if you’d like to adjust anything (e.g., add a license, change the tone, or include more details)!
