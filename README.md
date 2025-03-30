@@ -1,4 +1,4 @@
-# Obituary Search Tool
+# Obituary Search Tool (legacy.com)
 
 This Python script searches for obituaries on Legacy.com using a list of names and locations from a CSV file. It processes each entry, checks for matches, and outputs an updated CSV with results indicating whether each person is likely deceased, along with the URL of any matching obituary. A summary table of total searches and positive matches is also displayed.
 
